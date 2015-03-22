@@ -23,7 +23,7 @@ index is in [0,1,2,3]
 """
 
 isdigit = lambda t: t.isdigit()
-title   = lambda t: len(t) > 1 & t.istitle()
+title   = lambda t: t.istitle()
 
 def extract_features(tokens,n):
     features = {}
@@ -32,6 +32,8 @@ def extract_features(tokens,n):
 
     # is it better to work with augmented tokens???
     # tokens = [<paragraph>] + tokens + [</paragraph>]
+
+    # one more feature: "is not alfanumeric"
 
     if 1 < n + 1 < toklen:
         right = tokens[n+1]
