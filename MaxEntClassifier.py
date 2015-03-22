@@ -30,11 +30,14 @@ def extract_features(tokens,n):
 
     toklen = len(tokens)
 
+    # is it better to work with augmented tokens???
+    # tokens = [<paragraph>] + tokens + [</paragraph>]
+
     if 1 < n + 1 < toklen:
         right = tokens[n+1]
         left =  tokens[n-1]      
-        features['right_neighbor_len']   = "len(%s)" % len(right)    
-        features['left_neighbor_len']    = "len(%s)" % len(left)
+        features['right_neighbor_len']   = "%s" % len(right)    
+        features['left_neighbor_len']    = "%s" % len(left)
         features['right_neighbor_digit'] = "%s" % isdigit(right)    
         features['left_neighbor_digit']  = "%s" % isdigit(left)
         features['right_neighbor_title'] = "%s" % title(right)
@@ -42,13 +45,13 @@ def extract_features(tokens,n):
         
     elif n+1 == toklen != 1:
         left =  tokens[n-1]
-        features['left_neighbor_len']   = "len(%s)" % len(left)
+        features['left_neighbor_len']   =  "%s" % len(left)
         features['left_neighbor_digit']  = "%s" % isdigit(left)
         features['paragraph_end']        = "%s" % True
         
     elif n == 0 & toklen > 1:
         right = tokens[n+1]
-        features['right_neighbor_len']   = "len(%s)" % len(right)    
+        features['right_neighbor_len']   = "%s" % len(right)    
         features['right_neighbor_digit'] = "%s" % isdigit(right)
         
     else:
