@@ -2,6 +2,10 @@
 __pycache__/
 *.py[cod]
 
+first500.xml
+other700.xml
+
+
 # C extensions
 *.so
 

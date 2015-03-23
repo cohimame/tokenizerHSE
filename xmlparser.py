@@ -1,14 +1,18 @@
 from xml.etree import ElementTree as ET
 
 TEST = "try.xml"
+TRAIN_CORP_SOURCE = "other700.xml"
+TRAIN_CORP = "train.xml"
+TEST_CORP_SOURCE = "other700.xml"
+TEST_CORP = "train.xml"
 
 wrap         = lambda tag, text: "<{0}>{1}</{0}>".format(tag,text)
 parag_wrap   = lambda parag: wrap("parag",parag)
 sent_wrap    = lambda sent:  wrap("sentence",sent)
 text_wrap    = lambda text:  wrap("text",text)
 token_wrap   = lambda token: wrap("t",token)
-pos_dot_wrap = lambda token: "<t class=\"pos\">{}</token>".format(token)
-neg_dot_wrap = lambda token: "<t class=\"neg\">{}</token>".format(token)
+pos_dot_wrap = lambda token: "<t class=\"pos\">{}</t>".format(token)
+neg_dot_wrap = lambda token: "<t class=\"neg\">{}</t>".format(token)
 
 
 def read_xml(xml):
@@ -52,13 +56,15 @@ def prepare_sentence(tokens):
     return result
 
 def decide(prev,this,nxt):
-    print(this)
+    #print(this)
     if this == u'.':
         if nxt != "</sentence>":
-            if prev.isdigit() or len(prev) == 1:
-                return pos_dot_wrap(this)
-            else:
+            if prev.isdigit():
                 return neg_dot_wrap(this)
+            elif prev.isalpha() and len(prev) < 5:
+                return neg_dot_wrap(this)     
+            else:
+                return pos_dot_wrap(this)
         else:
             return pos_dot_wrap(this)          
     else:
@@ -83,10 +89,20 @@ def form_corpora(dest, texts):
             decorated = decorate(parsed_struct)
             outfile.write(decorated)
 
+def form_train_corpora():
+    tree = read_xml(TRAIN_CORP_SOURCE)
+    texts = extract_texts(tree)
+    form_corpora(TRAIN_CORP, texts)
 
-tree = read_xml("test10.xml")
-texts = extract_texts(tree)
-form_corpora("output.xml", texts)
+def form_test_corpora():
+    tree = read_xml(TEST_CORP_SOURCE)
+    texts = extract_texts(tree)
+    form_corpora(TEST_CORP, texts)
+
+#tree = read_xml("other700.xml")
+#tree = read_xml("test10.xml")
+#texts = extract_texts(tree)
+#form_corpora("output.xml", texts)
 
 s = ['1','.','пункт','диплома','т','.',')','.']
 
