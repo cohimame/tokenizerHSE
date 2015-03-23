@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><text><parag><sentence>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<text><parag><sentence>
   <t>Европейское</t>
   <t>космическое</t>
   <t>агенство</t>
@@ -19,6 +20,7 @@
   <t>Марсом</t>
   <t>и</t>
   <t>Юпитером</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>В</t>
@@ -59,6 +61,7 @@
   <t>солнечного</t>
   <t>света</t>
   <t>)</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>Когда</t>
@@ -76,6 +79,7 @@
   <t>фотографирование</t>
   <t>космического</t>
   <t>объекта</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Одна</t>
@@ -94,6 +98,7 @@
   <t>фотоснимков</t>
   <t>загадочного</t>
   <t>астероида</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Расшифровывая</t>
@@ -126,6 +131,7 @@
   <t>больше</t>
   <t>200</t>
   <t>метров</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Самый</t>
@@ -136,6 +142,7 @@
   <t>диаметр</t>
   <t>2</t>
   <t>км</t>
+  <t>...</t>
   </sentence></parag>
 <parag><sentence>
   <t>Ожидается</t>
@@ -174,6 +181,7 @@
   <t>приближения</t>
   <t>к</t>
   <t>Солнцу</t>
+  <t class="pos">.</token>
   </sentence></parag></text><text><parag><sentence>
   <t>7</t>
   <t>сентября</t>
@@ -186,6 +194,7 @@
   <t>«</t>
   <t>Автовилль</t>
   <t>»</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>В</t>
@@ -203,6 +212,7 @@
   <t>принадлежащий</t>
   <t>Владимиру</t>
   <t>Путину</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Это</t>
@@ -226,6 +236,7 @@
   <t>в</t>
   <t>последнее</t>
   <t>время</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>Этот</t>
@@ -257,6 +268,7 @@
   <t>-</t>
   <t>Красная</t>
   <t>Поляна</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>Новый</t>
@@ -268,6 +280,7 @@
   <t>Малой</t>
   <t>Трубецкой</t>
   <t>улице</t>
+  <t class="pos">.</token>
   </sentence></parag></text><text><parag><sentence>
   <t>Наконец</t>
   <t>-</t>
@@ -279,6 +292,7 @@
   <t>открыта</t>
   <t>первая</t>
   <t>велодорожка</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>Её</t>
@@ -295,6 +309,7 @@
   <t>столицы</t>
   <t>в</t>
   <t>Лужниках</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Несколько</t>
@@ -312,6 +327,7 @@
   <t>дорожки</t>
   <t>или</t>
   <t>нет</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>В</t>
@@ -330,6 +346,7 @@
   <t>»</t>
   <t>в</t>
   <t>Париже</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>До</t>
@@ -366,6 +383,7 @@
   <t>разрушая</t>
   <t>почвенный</t>
   <t>покров</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Экологи</t>
@@ -377,6 +395,7 @@
   <t>цивилизованных</t>
   <t>»</t>
   <t>велодорожек</t>
+  <t>…</t>
   </sentence></parag>
 <parag><sentence>
   <t>Открытие</t>
@@ -387,6 +406,7 @@
   <t>без</t>
   <t>маленькой</t>
   <t>неприятности</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Московские</t>
@@ -411,6 +431,7 @@
   <t>построено</t>
   <t>5</t>
   <t>велопарковок</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>На</t>
@@ -428,6 +449,7 @@
   <t>включает</t>
   <t>одну</t>
   <t>велопарковку</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Но</t>
@@ -450,6 +472,7 @@
   <t>пойдёт</t>
   <t>по</t>
   <t>плану</t>
+  <t class="pos">.</token>
   </sentence></parag></text><text><parag><sentence>
   <t>9</t>
   <t>сентября</t>
@@ -467,6 +490,7 @@
   <t>(</t>
   <t>ФРГ</t>
   <t>)</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Несмотря</t>
@@ -488,6 +512,7 @@
   <t>лично</t>
   <t>провёл</t>
   <t>богослужение</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Это</t>
@@ -498,6 +523,7 @@
   <t>архиерея</t>
   <t>в</t>
   <t>центр</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>Следует</t>
@@ -542,6 +568,7 @@
   <t>культуре</t>
   <t>русского</t>
   <t>народа</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>Считается</t>
@@ -556,6 +583,7 @@
   <t>центров</t>
   <t>в</t>
   <t>Германии</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>В</t>
@@ -565,6 +593,7 @@
   <t>около</t>
   <t>700</t>
   <t>человек</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Большинство</t>
@@ -572,6 +601,7 @@
   <t>дети</t>
   <t>и</t>
   <t>школьники</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Руководитель</t>
@@ -588,6 +618,7 @@
   <t>детей</t>
   <t>и</t>
   <t>подростков</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>А</t>
@@ -596,6 +627,7 @@
   <t>они</t>
   <t>не</t>
   <t>интересуются</t>
+  <t>!</t>
   </sentence>
 <sentence>
   <t>От</t>
@@ -620,6 +652,7 @@
   <t>…</t>
   <t>китайского</t>
   <t>языка</t>
+  <t>!</t>
   </sentence></parag>
 <parag><sentence>
   <t>Преподаватели</t>
@@ -634,11 +667,13 @@
   <t>высококвалифицированные</t>
   <t>и</t>
   <t>достойные</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Результаты</t>
   <t>—</t>
   <t>налицо</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Как</t>
@@ -657,6 +692,7 @@
   <t>учебные</t>
   <t>заведения</t>
   <t>Германии</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Есть</t>
@@ -666,6 +702,7 @@
   <t>других</t>
   <t>направлениях</t>
   <t>деятельности</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>К</t>
@@ -680,6 +717,7 @@
   <t>своей</t>
   <t>возрастной</t>
   <t>группе</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>Архиепископ</t>
@@ -701,6 +739,7 @@
   <t>страны</t>
   <t>и</t>
   <t>церкви</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>И</t>
@@ -710,6 +749,7 @@
   <t>этого</t>
   <t>всё</t>
   <t>возможное</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Поэтому</t>
@@ -733,6 +773,7 @@
   <t>сотрудничества</t>
   <t>с</t>
   <t>Кин-Топ</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>Следует</t>
@@ -755,6 +796,7 @@
   <t>и</t>
   <t>стран</t>
   <t>СНГ</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>И</t>
@@ -772,6 +814,7 @@
   <t>в</t>
   <t>Дюссельдорф</t>
   <t>усилилась</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Для</t>
@@ -780,6 +823,7 @@
   <t>свои</t>
   <t>веские</t>
   <t>причины</t>
+  <t>:</t>
   </sentence></parag>
 <parag><sentence>
   <t>1</t>
@@ -819,6 +863,7 @@
   <t>и</t>
   <t>автобусная</t>
   <t>связь</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Кстати</t>
@@ -840,6 +885,7 @@
   <t>—</t>
   <t>памятник</t>
   <t>Пушкину</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>2</t>
@@ -859,6 +905,7 @@
   <t>специально</t>
   <t>проведенные</t>
   <t>исследования</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>3</t>
@@ -876,12 +923,14 @@
   <t>всей</t>
   <t>Западной</t>
   <t>Европы</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>И</t>
   <t>это</t>
   <t>не</t>
   <t>преувеличение</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Если</t>
@@ -903,6 +952,7 @@
   <t>массовой</t>
   <t>,</t>
   <t>повседневной</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Здесь</t>
@@ -912,6 +962,7 @@
   <t>бутики</t>
   <t>в</t>
   <t>Европе</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Да</t>
@@ -925,6 +976,7 @@
   <t>его</t>
   <t>маленьким</t>
   <t>Парижем</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>4</t>
@@ -939,6 +991,7 @@
   <t>самой</t>
   <t>изящной</t>
   <t>набережной</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>5</t>
@@ -950,6 +1003,7 @@
   <t>и</t>
   <t>торговых</t>
   <t>заведений</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>6</t>
@@ -976,6 +1030,7 @@
   <t>архиепископ</t>
   <t>Лонгин</t>
   <t>Клинский</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>Так</t>
@@ -995,6 +1050,7 @@
   <t>на</t>
   <t>русском</t>
   <t>языке</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Есть</t>
@@ -1004,6 +1060,7 @@
   <t>населённые</t>
   <t>преимущественно</t>
   <t>русскоязычными</t>
+  <t class="pos">.</token>
   </sentence></parag></text><text><parag><sentence>
   <t>Минувшей</t>
   <t>ночью</t>
@@ -1013,6 +1070,7 @@
   <t>в</t>
   <t>работе</t>
   <t>Gmail</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Около</t>
@@ -1036,6 +1094,7 @@
   <t>главную</t>
   <t>страницу</t>
   <t>Google</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>Примерно</t>
@@ -1059,6 +1118,7 @@
   <t>главная</t>
   <t>страница</t>
   <t>поисковика</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Как</t>
@@ -1082,6 +1142,7 @@
   <t>при</t>
   <t>использовании</t>
   <t>прокси-серверов</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>«</t>
@@ -1101,6 +1162,7 @@
   <t>действительно</t>
   <t>имел</t>
   <t>место</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>«</t>
@@ -1118,6 +1180,7 @@
   <t>длился</t>
   <t>примерно</t>
   <t>час</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Команда</t>
@@ -1142,9 +1205,11 @@
   <t>Роман</t>
   <t>-</t>
   <t>Погоржельская</t>
+  <t class="pos">.</token>
   </sentence></parag></text><text><parag><sentence>
   <t>Сколково</t>
   <t>растиражируют</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Дмитрий</t>
@@ -1162,6 +1227,7 @@
   <t>России</t>
   <t>будет</t>
   <t>несколько</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>Глава</t>
@@ -1196,6 +1262,7 @@
   <t>механизм</t>
   <t>будет</t>
   <t>тиражироваться</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Другими</t>
@@ -1218,6 +1285,7 @@
   <t>несколько</t>
   <t>Кремниевых</t>
   <t>долин</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>«</t>
@@ -1240,6 +1308,7 @@
   <t>«</t>
   <t>Росбалт</t>
   <t>»</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Президент</t>
@@ -1265,6 +1334,7 @@
   <t>для</t>
   <t>бизнеса</t>
   <t>позициям</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Российский</t>
@@ -1303,6 +1373,7 @@
   <t>активизировать</t>
   <t>инновационное</t>
   <t>развитие</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Так</t>
@@ -1316,6 +1387,7 @@
   <t>России</t>
   <t>техрегламентов</t>
   <t>Евросоюза</t>
+  <t class="pos">.</token>
   </sentence></parag></text><text><parag><sentence>
   <t>В</t>
   <t>президенты</t>
@@ -1326,6 +1398,7 @@
   <t>пусть</t>
   <t>меня</t>
   <t>научат</t>
+  <t>!</t>
   </sentence>
 <sentence>
   <t>Главный</t>
@@ -1336,6 +1409,7 @@
   <t>министров</t>
   <t>и</t>
   <t>президентов</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>Факультет</t>
@@ -1360,6 +1434,7 @@
   <t>Голос</t>
   <t>России</t>
   <t>»</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Готовить</t>
@@ -1371,6 +1446,7 @@
   <t>и</t>
   <t>психологии</t>
   <t>политики</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Как</t>
@@ -1389,6 +1465,7 @@
   <t>экспертов</t>
   <t>по</t>
   <t>лидерству</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>В</t>
@@ -1401,6 +1478,7 @@
   <t>министры</t>
   <t>и</t>
   <t>президенты</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>В</t>
@@ -1428,6 +1506,7 @@
   <t>за</t>
   <t>собой</t>
   <t>людей</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Известные</t>
@@ -1453,6 +1532,7 @@
   <t>для</t>
   <t>чтения</t>
   <t>лекций</t>
+  <t class="pos">.</token>
   </sentence></parag></text><text><parag><sentence>
   <t>СМИ</t>
   <t>выяснили</t>
@@ -1461,6 +1541,7 @@
   <t>послания</t>
   <t>Дмитрия</t>
   <t>Медведева</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Президент</t>
@@ -1472,6 +1553,7 @@
   <t>уже</t>
   <t>30</t>
   <t>ноября</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>Глава</t>
@@ -1485,6 +1567,7 @@
   <t>собранию</t>
   <t>30</t>
   <t>ноября</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Газете</t>
@@ -1501,6 +1584,7 @@
   <t>выступления</t>
   <t>Дмитрия</t>
   <t>Медведева</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Как</t>
@@ -1523,6 +1607,7 @@
   <t>помощи</t>
   <t>бездомным</t>
   <t>детям</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Президент</t>
@@ -1531,6 +1616,7 @@
   <t>беспризорников</t>
   <t>и</t>
   <t>усыновления</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>РБК</t>
@@ -1555,6 +1641,7 @@
   <t>экономики</t>
   <t>в</t>
   <t>регионах</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Глава</t>
@@ -1571,6 +1658,7 @@
   <t>и</t>
   <t>модернизационную</t>
   <t>программу</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Причём</t>
@@ -1587,6 +1675,7 @@
   <t>эффективности</t>
   <t>работы</t>
   <t>губернаторов</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Сообщается</t>
@@ -1614,6 +1703,7 @@
   <t>модернизация</t>
   <t>политической</t>
   <t>системы</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>Что</t>
@@ -1633,6 +1723,7 @@
   <t>ЕС</t>
   <t>и</t>
   <t>США</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Впрочем</t>
@@ -1641,6 +1732,7 @@
   <t>ещё</t>
   <t>может</t>
   <t>измениться</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>В</t>
@@ -1656,6 +1748,7 @@
   <t>куда</t>
   <t>отправится</t>
   <t>президент</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Одна</t>
@@ -1672,6 +1765,7 @@
   <t>в</t>
   <t>сфере</t>
   <t>ПРО</t>
+  <t class="pos">.</token>
   </sentence></parag></text><text><parag><sentence>
   <t>Депутаты</t>
   <t>хотят</t>
@@ -1680,6 +1774,7 @@
   <t>за</t>
   <t>азартные</t>
   <t>игры</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Госдума</t>
@@ -1692,6 +1787,7 @@
   <t>досуг</t>
   <t>таким</t>
   <t>способом</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>Депутат</t>
@@ -1726,6 +1822,7 @@
   <t>будут</t>
   <t>наказывать</t>
   <t>рублём</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Логика</t>
@@ -1744,6 +1841,7 @@
   <t>вне</t>
   <t>игорных</t>
   <t>зон</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Однако</t>
@@ -1756,6 +1854,7 @@
   <t>никак</t>
   <t>не</t>
   <t>возбраняется</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Саввиди</t>
@@ -1790,6 +1889,7 @@
   <t>информационно-телекоммуникационных</t>
   <t>сетей</t>
   <t>»</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>По</t>
@@ -1806,6 +1906,7 @@
   <t>до</t>
   <t>2000</t>
   <t>рублей</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>Вторая</t>
@@ -1829,6 +1930,7 @@
   <t>понятие</t>
   <t>игорного</t>
   <t>автомата</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Он</t>
@@ -1864,6 +1966,7 @@
   <t>а</t>
   <t>также</t>
   <t>интернет-терминалы</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Принятие</t>
@@ -1883,11 +1986,13 @@
   <t>конторами</t>
   <t>и</t>
   <t>тотализаторами</t>
+  <t class="pos">.</token>
   </sentence></parag></text><text><parag><sentence>
   <t>НАТО</t>
   <t>уходит</t>
   <t>из</t>
   <t>Афганистана</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Во</t>
@@ -1906,6 +2011,7 @@
   <t>войск</t>
   <t>из</t>
   <t>Афганистана</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>Этот</t>
@@ -1917,6 +2023,7 @@
   <t>к</t>
   <t>2014</t>
   <t>году</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>Руководство</t>
@@ -1952,6 +2059,7 @@
   <t>скрывать</t>
   <t>своё</t>
   <t>поражение</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>При</t>
@@ -1970,6 +2078,7 @@
   <t>один</t>
   <t>с</t>
   <t>талибами</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Кабул</t>
@@ -1989,11 +2098,13 @@
   <t>«</t>
   <t>Интерфакс</t>
   <t>»</t>
+  <t class="pos">.</token>
   </sentence></parag></text><text></text><text><parag><sentence>
   <t>За</t>
   <t>руль</t>
   <t>лучше</t>
   <t>не</t>
+  <t>садиться</t>
   </sentence>
 <sentence>
   <t>Forbes</t>
@@ -2003,6 +2114,7 @@
   <t>автомобили</t>
   <t>2010</t>
   <t>года</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>Авторитетный</t>
@@ -2022,6 +2134,7 @@
   <t>точки</t>
   <t>зрения</t>
   <t>безопасности</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>В</t>
@@ -2037,6 +2150,7 @@
   <t>продажу</t>
   <t>в</t>
   <t>США</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Степень</t>
@@ -2046,6 +2160,7 @@
   <t>по</t>
   <t>результатам</t>
   <t>краш-тестов</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Впрочем</t>
@@ -2069,6 +2184,7 @@
   <t>у</t>
   <t>маленьких</t>
   <t>машин</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Первые</t>
@@ -2080,6 +2196,7 @@
   <t>зато</t>
   <t>легче</t>
   <t>переворачиваются</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Отметим</t>
@@ -2107,6 +2224,7 @@
   <t>национальным</t>
   <t>стандартам</t>
   <t>безопасности</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Как</t>
@@ -2120,6 +2238,7 @@
   <t>числе</t>
   <t>следующими</t>
   <t>моделями</t>
+  <t>:</t>
   </sentence></parag>
 <parag><sentence>
   <t>Chevrolet</t>
@@ -2135,6 +2254,7 @@
   <t>остальные</t>
   <t>результаты</t>
   <t>хуже</t>
+  <t>;</t>
   </sentence>
 <sentence>
   <t>Chrysler</t>
@@ -2142,6 +2262,7 @@
   <t>Cruiser</t>
   <t>—</t>
   <t>аналогично</t>
+  <t>;</t>
   </sentence>
 <sentence>
   <t>Mitsubishi</t>
@@ -2154,6 +2275,7 @@
   <t>и</t>
   <t>боковом</t>
   <t>тестах</t>
+  <t>;</t>
   </sentence>
 <sentence>
   <t>Mercury</t>
@@ -2171,6 +2293,7 @@
   <t>и</t>
   <t>заднем</t>
   <t>ударе</t>
+  <t>;</t>
   </sentence>
 <sentence>
   <t>Cadillac</t>
@@ -2182,12 +2305,14 @@
   <t>при</t>
   <t>фронтальном</t>
   <t>тесте</t>
+  <t>;</t>
   </sentence>
 <sentence>
   <t>Jeep</t>
   <t>Wrangler</t>
   <t>—</t>
   <t>аналогично</t>
+  <t>;</t>
   </sentence>
 <sentence>
   <t>Nissan</t>
@@ -2204,11 +2329,13 @@
   <t>самых</t>
   <t>опасных</t>
   <t>автомобилей</t>
+  <t class="pos">.</token>
   </sentence></parag></text><text><parag><sentence>
   <t>Как</t>
   <t>сложно</t>
   <t>придумать</t>
   <t>имя</t>
+  <t>!</t>
   </sentence>
 <sentence>
   <t>Да</t>
@@ -2223,6 +2350,7 @@
   <t>недели</t>
   <t>две</t>
   <t>мучился</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Такими</t>
@@ -2235,6 +2363,7 @@
   <t>можно</t>
   <t>не</t>
   <t>рассчитывать</t>
+  <t>:)</t>
   </sentence></parag>
 <parag><sentence>
   <t>А</t>
@@ -2260,6 +2389,7 @@
   <t>все</t>
   <t>случаи</t>
   <t>жизни</t>
+  <t>:)</t>
   </sentence>
 <sentence>
   <t>Выспренно</t>
@@ -2276,6 +2406,7 @@
   <t>себе</t>
   <t>смогу</t>
   <t>простить</t>
+  <t class="pos">.</token>
   </sentence></parag>
 <parag><sentence>
   <t>Upd</t>
@@ -2285,6 +2416,7 @@
   <t>,</t>
   <t>ничё</t>
   <t>названия</t>
+  <t class="pos">.</token>
   </sentence>
 <sentence>
   <t>Уже</t>
@@ -2292,6 +2424,7 @@
   <t>паре</t>
   <t>смыслов</t>
   <t>придумал</t>
+  <t>:)</t>
   </sentence>
 <sentence>
   <t>Осталось</t>
@@ -2301,4 +2434,5 @@
   <t>и</t>
   <t>журнал</t>
   <t>готОв</t>
+  <t class="pos">.</token>
   </sentence></parag></text>
