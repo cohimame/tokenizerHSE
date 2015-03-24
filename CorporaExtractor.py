@@ -1,7 +1,5 @@
 from xml.etree import ElementTree as ET
-
-TEST = "try.xml"
-TEST_OUT = "try_train.xml"
+from xml.sax.saxutils import escape
 
 TRAIN_CORP_SOURCE = "first500.xml"
 TRAIN_CORP = "train.xml"
@@ -30,10 +28,13 @@ def form_test_corpora():
 def form_corpora(dest, texts):
     with open(dest, mode = "w" ,encoding='utf-8') as outfile:
         outfile.write("""<?xml version="1.0" encoding="utf-8" standalone="yes"?>\n""")
+        outfile.write("""<annotation>\n""")
+        
         for text in texts:
             parsed_struct = extract_tokenized_sentences(text)
             decorated = decorate(parsed_struct)
             outfile.write(decorated)
+        outfile.write("""</annotation>""")
 
 def decorate(text):
     txt = []
@@ -63,7 +64,7 @@ def extract_tokenized_sentences(text):
         sentences =  paragraph.findall('./sentence')
         for sentence_node in sentences:
             token_nodes = sentence_node.findall('.//token')
-            ts = [token.get('text') for token in token_nodes]
+            ts = [escape(token.get('text')) for token in token_nodes]
             sentence = prepare_sentence(ts)
             par.append(sentence)  
         result.append(par)     
@@ -92,6 +93,9 @@ def decide(prev,this,nxt):
         return token_wrap(this)
 
 if __name__ == "__main__":
+    TEST = "try.xml"
+    TEST_OUT = "try_train.xml"
+
     tree = read_xml(TEST)
     texts = extract_texts(tree)
     form_corpora(TEST_OUT, texts)

@@ -7,18 +7,22 @@ PARAGRAPH = "_paragraph_"
 isdigit = lambda t: t.isdigit()
 title   = lambda t: t.istitle()
 
+def read(x):
+    with open(x, encoding='utf-8') as infile:
+        tree = ET.parse(infile)
+    return tree
+
 # работа происходит параграфами, предложений "не существует".
 def collect_classified_data(xml):
     labeled_data = []
+    tree = read(xml)
     
-    with open(xml, encoding='utf-8') as infile:
-        tree = ET.parse(infile)
-        
     paragraphs = tree.findall('.//parag')
     for paragraph_node in paragraphs:
         token_nodes = paragraph_node.findall('.//t')
         ld = extract_labeled_data(token_nodes)
         labeled_data += ld
+        
     return labeled_data
 
 # на вход: ['_paragraph_'  ...  '.' ... '_paragraph_']        
@@ -64,7 +68,8 @@ def extract_features(prev,nxt):
     return features
 
 if __name__ == "__main__":
-    tree = read_xml("try_train.xml")        
+    tree = "try_train.xml"
+    
     data = collect_classified_data(tree)
     
     train_set, test_set = data, data
@@ -73,3 +78,4 @@ if __name__ == "__main__":
     test_ex = test_set[0][0]
     print(test_ex)
     print(me_classifier.classify(test_ex))
+    

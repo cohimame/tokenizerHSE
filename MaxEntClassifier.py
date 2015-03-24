@@ -7,12 +7,12 @@ import FeatureExtractor
 
 if __name__ == "__main__":
     """    
-        CorporaExtractor.form_train_corpora() # train.xml
-        CorporaExtractor.form_test_corpora()  # test.xml
+    CorporaExtractor.form_train_corpora() # train.xml
+    #CorporaExtractor.form_test_corpora()  # test.xml
 
     """
 
-    trdata = FeatureExtractor.collect_classified_data("train.xml")
+    data = FeatureExtractor.collect_classified_data("train.xml")
     random.shuffle(data)
 
 
@@ -26,7 +26,7 @@ if __name__ == "__main__":
     print(test_ex)
     print(me_classifier.classify(test_ex))
 
-    classify.accuracy(me_classifier, test_set)
+    print(classify.accuracy(me_classifier, test_set))
 
-
+    #"""
    

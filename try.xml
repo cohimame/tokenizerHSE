@@ -174,4 +174,178 @@
     </paragraph>
   </paragraphs>
 </text>
+<text id="2" parent="1" name="00021 Школа злословия">
+  <tags>
+    <tag>Год:2008</tag>
+    <tag>Дата:25/08</tag>
+    <tag>Автор:Валентин Колесников</tag>
+    <tag>url:http://www.chaskor.ru/article/shkola_zlosloviya_uchit_prikusit_yazyk_21</tag>
+    <tag>Тема:ЧасКор:Медиа</tag>
+    <tag>Тема:ЧасКор:Медиа/ТВ и радио</tag>
+  </tags>
+  <paragraphs>
+    <paragraph id="1">
+      <sentence id="1">
+        <source>«Школа злословия» учит прикусить язык</source>
+        <tokens>
+          <token id="1" text="«">
+          <tfr rev_id="1" t="«">
+            <v>
+                <l id="0" t="«">
+                  <g v="UNKN"/>
+                </l>
+            </v>
+          </tfr>
+        </token> 
+          <token id="2" text="Школа">
+        <tfr rev_id="2" t="Школа">
+          <v>
+            <l id="393872" t="школа">
+              <g v="NOUN"/>
+              <g v="inan"/>
+              <g v="femn"/>
+              <g v="sing"/>
+              <g v="nomn"/>
+            </l>
+          </v>
+        </tfr>
+      </token>
+          <token id="3" text="злословия"><tfr rev_id="3" t="злословия"><v><l id="120062" t="злословие"><g v="NOUN"/><g v="inan"/><g v="neut"/><g v="sing"/><g v="gent"/></l></v><v><l id="120062" t="злословие"><g v="NOUN"/><g v="inan"/><g v="neut"/><g v="plur"/><g v="nomn"/></l></v><v><l id="120062" t="злословие"><g v="NOUN"/><g v="inan"/><g v="neut"/><g v="plur"/><g v="accs"/></l></v></tfr></token>
+          <token id="4" text="»"><tfr rev_id="4" t="»"><v><l id="0" t="»"><g v="UNKN"/></l></v></tfr></token>
+          <token id="5" text="учит"><tfr rev_id="5" t="учит"><v><l id="376108" t="учу"><g v="VERB"/><g v="impf"/><g v="tran"/><g v="sing"/><g v="3per"/><g v="pres"/><g v="indc"/></l></v></tfr></token>
+          <token id="6" text="прикусить"><tfr rev_id="6" t="прикусить"><v><l id="281476" t="прикусить"><g v="INFN"/><g v="perf"/><g v="tran"/></l></v></tfr></token>
+          <token id="7" text="язык"><tfr rev_id="7" t="язык"><v><l id="401728" t="язык"><g v="NOUN"/><g v="anim"/><g v="masc"/><g v="sing"/><g v="nomn"/></l></v><v><l id="401729" t="язык"><g v="NOUN"/><g v="inan"/><g v="masc"/><g v="sing"/><g v="nomn"/></l></v><v><l id="401729" t="язык"><g v="NOUN"/><g v="inan"/><g v="masc"/><g v="sing"/><g v="accs"/></l></v></tfr></token>
+        </tokens>
+      </sentence>
+      <sentence id="2">
+        <source>Сохранится ли градус дискуссии в новом сезоне?</source>
+        <tokens>
+          <token id="8" text="Сохранится"><tfr rev_id="8" t="Сохранится"><v><l id="342516" t="сохранился"><g v="VERB"/><g v="perf"/><g v="intr"/><g v="sing"/><g v="3per"/><g v="futr"/><g v="indc"/></l></v></tfr></token>
+          <token id="9" text="ли"><tfr rev_id="9" t="ли"><v><l id="154961" t="ли"><g v="CONJ"/></l></v><v><l id="154962" t="ли"><g v="PRCL"/></l></v><v><l id="154963" t="ли"><g v="NOUN"/><g v="anim"/><g v="masc"/><g v="Sgtm"/><g v="Fixd"/><g v="Name"/><g v="sing"/><g v="nomn"/></l></v><v><l id="154963" t="ли"><g v="NOUN"/><g v="anim"/><g v="masc"/><g v="Sgtm"/><g v="Fixd"/><g v="Name"/><g v="sing"/><g v="gent"/></l></v><v><l id="154963" t="ли"><g v="NOUN"/><g v="anim"/><g v="masc"/><g v="Sgtm"/><g v="Fixd"/><g v="Name"/><g v="sing"/><g v="datv"/></l></v><v><l id="154963" t="ли"><g v="NOUN"/><g v="anim"/><g v="masc"/><g v="Sgtm"/><g v="Fixd"/><g v="Name"/><g v="sing"/><g v="accs"/></l></v><v><l id="154963" t="ли"><g v="NOUN"/><g v="anim"/><g v="masc"/><g v="Sgtm"/><g v="Fixd"/><g v="Name"/><g v="sing"/><g v="ablt"/></l></v><v><l id="154963" t="ли"><g v="NOUN"/><g v="anim"/><g v="masc"/><g v="Sgtm"/><g v="Fixd"/><g v="Name"/><g v="sing"/><g v="loct"/></l></v></tfr></token>
+          <token id="10" text="градус"><tfr rev_id="10" t="градус"><v><l id="77573" t="градус"><g v="NOUN"/><g v="inan"/><g v="masc"/><g v="sing"/><g v="nomn"/></l></v><v><l id="77573" t="градус"><g v="NOUN"/><g v="inan"/><g v="masc"/><g v="sing"/><g v="accs"/></l></v></tfr></token>
+          <token id="11" text="дискуссии"><tfr rev_id="11" t="дискуссии"><v><l id="88077" t="дискуссия"><g v="NOUN"/><g v="inan"/><g v="femn"/><g v="sing"/><g v="gent"/></l></v><v><l id="88077" t="дискуссия"><g v="NOUN"/><g v="inan"/><g v="femn"/><g v="sing"/><g v="datv"/></l></v><v><l id="88077" t="дискуссия"><g v="NOUN"/><g v="inan"/><g v="femn"/><g v="sing"/><g v="loct"/></l></v><v><l id="88077" t="дискуссия"><g v="NOUN"/><g v="inan"/><g v="femn"/><g v="plur"/><g v="nomn"/></l></v><v><l id="88077" t="дискуссия"><g v="NOUN"/><g v="inan"/><g v="femn"/><g v="plur"/><g v="accs"/></l></v></tfr></token>
+          <token id="12" text="в"><tfr rev_id="12" t="в"><v><l id="39313" t="в"><g v="PREP"/></l></v></tfr></token>
+          <token id="13" text="новом"><tfr rev_id="13" t="новом"><v><l id="200212" t="новое"><g v="NOUN"/><g v="inan"/><g v="neut"/><g v="Sgtm"/><g v="sing"/><g v="loct"/></l></v><v><l id="200605" t="новый"><g v="ADJF"/><g v="Qual"/><g v="masc"/><g v="sing"/><g v="loct"/></l></v><v><l id="200605" t="новый"><g v="ADJF"/><g v="Qual"/><g v="neut"/><g v="sing"/><g v="loct"/></l></v></tfr></token>
+          <token id="14" text="сезоне"><tfr rev_id="14" t="сезоне"><v><l id="328976" t="сезон"><g v="NOUN"/><g v="inan"/><g v="masc"/><g v="sing"/><g v="loct"/></l></v></tfr></token>
+          <token id="15" text="?"><tfr rev_id="15" t="?"><v><l id="0" t="?"><g v="PNCT"/></l></v></tfr></token>
+        </tokens>
+      </sentence>
+    </paragraph>
+    <paragraph id="2">
+      <sentence id="3">
+        <source>Великолепная «Школа злословия» вернулась в эфир после летних каникул в новом формате.</source>
+        <tokens>
+          <token id="16" text="Великолепная"><tfr rev_id="16" t="Великолепная"><v><l id="42660" t="великолепный"><g v="ADJF"/><g v="Qual"/><g v="femn"/><g v="sing"/><g v="nomn"/></l></v></tfr></token>
+          <token id="17" text="«"><tfr rev_id="17" t="«"><v><l id="0" t="«"><g v="UNKN"/></l></v></tfr></token>
+          <token id="18" text="Школа"><tfr rev_id="18" t="Школа"><v><l id="393872" t="школа"><g v="NOUN"/><g v="inan"/><g v="femn"/><g v="sing"/><g v="nomn"/></l></v></tfr></token>
+          <token id="19" text="злословия"><tfr rev_id="19" t="злословия"><v><l id="120062" t="злословие"><g v="NOUN"/><g v="inan"/><g v="neut"/><g v="sing"/><g v="gent"/></l></v><v><l id="120062" t="злословие"><g v="NOUN"/><g v="inan"/><g v="neut"/><g v="plur"/><g v="nomn"/></l></v><v><l id="120062" t="злословие"><g v="NOUN"/><g v="inan"/><g v="neut"/><g v="plur"/><g v="accs"/></l></v></tfr></token>
+          <token id="20" text="»"><tfr rev_id="20" t="»"><v><l id="0" t="»"><g v="UNKN"/></l></v></tfr></token>
+          <token id="21" text="вернулась"><tfr rev_id="21" t="вернулась"><v><l id="43544" t="вернулся"><g v="VERB"/><g v="perf"/><g v="intr"/><g v="femn"/><g v="sing"/><g v="past"/><g v="indc"/></l></v></tfr></token>
+          <token id="22" text="в"><tfr rev_id="22" t="в"><v><l id="39313" t="в"><g v="PREP"/></l></v></tfr></token>
+          <token id="23" text="эфир"><tfr rev_id="23" t="эфир"><v><l id="400720" t="эфир"><g v="NOUN"/><g v="inan"/><g v="masc"/><g v="sing"/><g v="nomn"/></l></v><v><l id="400720" t="эфир"><g v="NOUN"/><g v="inan"/><g v="masc"/><g v="sing"/><g v="accs"/></l></v></tfr></token>
+          <token id="24" text="после"><tfr rev_id="24" t="после"><v><l id="271434" t="после"><g v="PREP"/></l></v><v><l id="271435" t="после"><g v="ADVB"/></l></v><v><l id="271773" t="посол"><g v="NOUN"/><g v="anim"/><g v="masc"/><g v="sing"/><g v="loct"/></l></v></tfr></token>
+          <token id="25" text="летних"><tfr rev_id="25" t="летних"><v><l id="154786" t="летний"><g v="ADJF"/><g v="plur"/><g v="gent"/></l></v><v><l id="154786" t="летний"><g v="ADJF"/><g v="anim"/><g v="plur"/><g v="accs"/></l></v><v><l id="154786" t="летний"><g v="ADJF"/><g v="plur"/><g v="loct"/></l></v></tfr></token>
+          <token id="26" text="каникул"><tfr rev_id="26" t="каникул"><v><l id="134281" t="каникулы"><g v="NOUN"/><g v="inan"/><g v="GNdr"/><g v="Pltm"/><g v="plur"/><g v="gent"/></l></v></tfr></token>
+          <token id="27" text="в"><tfr rev_id="27" t="в"><v><l id="39313" t="в"><g v="PREP"/></l></v></tfr></token>
+          <token id="28" text="новом"><tfr rev_id="28" t="новом"><v><l id="200212" t="новое"><g v="NOUN"/><g v="inan"/><g v="neut"/><g v="Sgtm"/><g v="sing"/><g v="loct"/></l></v><v><l id="200605" t="новый"><g v="ADJF"/><g v="Qual"/><g v="masc"/><g v="sing"/><g v="loct"/></l></v><v><l id="200605" t="новый"><g v="ADJF"/><g v="Qual"/><g v="neut"/><g v="sing"/><g v="loct"/></l></v></tfr></token>
+          <token id="29" text="формате"><tfr rev_id="29" t="формате"><v><l id="380154" t="формат"><g v="NOUN"/><g v="inan"/><g v="masc"/><g v="sing"/><g v="loct"/></l></v></tfr></token>
+          <token id="30" text="."><tfr rev_id="30" t="."><v><l id="0" t="."><g v="PNCT"/></l></v></tfr></token>
+        </tokens>
+      </sentence>
+      <sentence id="4">
+        <source>В истории программы это уже не первый «ребрендинг».</source>
+        <tokens>
+          <token id="31" text="В"><tfr rev_id="31" t="В"><v><l id="39313" t="в"><g v="PREP"/></l></v></tfr></token>
+          <token id="32" text="истории"><tfr rev_id="32" t="истории"><v><l id="131180" t="история"><g v="NOUN"/><g v="inan"/><g v="femn"/><g v="sing"/><g v="gent"/></l></v><v><l id="131180" t="история"><g v="NOUN"/><g v="inan"/><g v="femn"/><g v="sing"/><g v="datv"/></l></v><v><l id="131180" t="история"><g v="NOUN"/><g v="inan"/><g v="femn"/><g v="sing"/><g v="loct"/></l></v><v><l id="131180" t="история"><g v="NOUN"/><g v="inan"/><g v="femn"/><g v="plur"/><g v="nomn"/></l></v><v><l id="131180" t="история"><g v="NOUN"/><g v="inan"/><g v="femn"/><g v="plur"/><g v="accs"/></l></v></tfr></token>
+          <token id="33" text="программы"><tfr rev_id="33" t="программы"><v><l id="288784" t="программа"><g v="NOUN"/><g v="inan"/><g v="femn"/><g v="sing"/><g v="gent"/></l></v><v><l id="288784" t="программа"><g v="NOUN"/><g v="inan"/><g v="femn"/><g v="plur"/><g v="nomn"/></l></v><v><l id="288784" t="программа"><g v="NOUN"/><g v="inan"/><g v="femn"/><g v="plur"/><g v="accs"/></l></v></tfr></token>
+          <token id="34" text="это"><tfr rev_id="34" t="это"><v><l id="400658" t="это"><g v="PRCL"/></l></v><v><l id="400659" t="это"><g v="NPRO"/><g v="neut"/><g v="sing"/><g v="nomn"/></l></v><v><l id="400659" t="это"><g v="NPRO"/><g v="neut"/><g v="sing"/><g v="accs"/></l></v><v><l id="400666" t="этот"><g v="ADJF"/><g v="Apro"/><g v="neut"/><g v="sing"/><g v="nomn"/></l></v><v><l id="400666" t="этот"><g v="ADJF"/><g v="Apro"/><g v="neut"/><g v="sing"/><g v="accs"/></l></v></tfr></token>
+          <token id="35" text="уже"><tfr rev_id="35" t="уже"><v><l id="368038" t="уж"><g v="NOUN"/><g v="anim"/><g v="masc"/><g v="sing"/><g v="loct"/></l></v><v><l id="368114" t="уже"><g v="ADVB"/></l></v><v><l id="368293" t="уже"><g v="ADJC"/><g v="Qual"/></l></v></tfr></token>
+          <token id="36" text="не"><tfr rev_id="36" t="не"><v><l id="186074" t="не"><g v="PRCL"/></l></v></tfr></token>
+          <token id="37" text="первый"><tfr rev_id="37" t="первый"><v><l id="235801" t="первый"><g v="ADJF"/><g v="Anum"/><g v="masc"/><g v="sing"/><g v="nomn"/></l></v><v><l id="235801" t="первый"><g v="ADJF"/><g v="Anum"/><g v="inan"/><g v="masc"/><g v="sing"/><g v="accs"/></l></v></tfr></token>
+          <token id="38" text="«"><tfr rev_id="38" t="«"><v><l id="0" t="«"><g v="UNKN"/></l></v></tfr></token>
+          <token id="39" text="ребрендинг"><tfr rev_id="39" t="ребрендинг"><v><l id="0" t="ребрендинг"><g v="UNKN"/></l></v></tfr></token>
+          <token id="40" text="»"><tfr rev_id="40" t="»"><v><l id="0" t="»"><g v="UNKN"/></l></v></tfr></token>
+          <token id="41" text="."><tfr rev_id="41" t="."><v><l id="0" t="."><g v="PNCT"/></l></v></tfr></token>
+        </tokens>
+      </sentence>
+      <sentence id="5">
+        <source>Сейчас с трудом можно припомнить, что начиналась «Школа…» на канале «Культура» как стандартное ток-шоу, которое отличалось от других «кухонными» обсуждениями гостя, что называется – «за глаза», и неожиданными персонами в качестве ведущих.</source>
+        <tokens>
+          <token id="42" text="Сейчас"><tfr rev_id="42" t="Сейчас"><v><l id="329102" t="сейчас"><g v="ADVB"/></l></v></tfr></token>
+          <token id="43" text="с"><tfr rev_id="43" t="с"><v><l id="322079" t="с"><g v="PREP"/></l></v></tfr></token>
+          <token id="44" text="трудом"><tfr rev_id="44" t="трудом"><v><l id="363246" t="труд"><g v="NOUN"/><g v="inan"/><g v="masc"/><g v="sing"/><g v="ablt"/></l></v></tfr></token>
+          <token id="45" text="можно"><tfr rev_id="45" t="можно"><v><l id="169380" t="можно"><g v="PRED"/><g v="pres"/></l></v></tfr></token>
+          <token id="46" text="припомнить"><tfr rev_id="46" t="припомнить"><v><l id="283566" t="припомнить"><g v="INFN"/><g v="perf"/><g v="tran"/></l></v></tfr></token>
+          <token id="47" text=","><tfr rev_id="47" t=","><v><l id="0" t=","><g v="PNCT"/></l></v></tfr></token>
+          <token id="48" text="что"><tfr rev_id="48" t="что"><v><l id="390535" t="что"><g v="CONJ"/></l></v><v><l id="390536" t="что"><g v="NPRO"/><g v="neut"/><g v="sing"/><g v="nomn"/></l></v><v><l id="390536" t="что"><g v="NPRO"/><g v="neut"/><g v="sing"/><g v="accs"/></l></v><v><l id="390537" t="что"><g v="ADVB"/><g v="Ques"/></l></v></tfr></token>
+          <token id="49" text="начиналась"><tfr rev_id="49" t="начиналась"><v><l id="185543" t="начинаюсь"><g v="VERB"/><g v="impf"/><g v="intr"/><g v="femn"/><g v="sing"/><g v="past"/><g v="indc"/></l></v></tfr></token>
+          <token id="50" text="«"><tfr rev_id="50" t="«"><v><l id="0" t="«"><g v="UNKN"/></l></v></tfr></token>
+          <token id="51" text="Школа"><tfr rev_id="51" t="Школа"><v><l id="393872" t="школа"><g v="NOUN"/><g v="inan"/><g v="femn"/><g v="sing"/><g v="nomn"/></l></v></tfr></token>
+          <token id="52" text="…"><tfr rev_id="52" t="…"><v><l id="0" t="…"><g v="UNKN"/></l></v></tfr></token>
+          <token id="53" text="»"><tfr rev_id="53" t="»"><v><l id="0" t="»"><g v="UNKN"/></l></v></tfr></token>
+          <token id="54" text="на"><tfr rev_id="54" t="на"><v><l id="173350" t="на"><g v="PREP"/></l></v></tfr></token>
+          <token id="55" text="канале"><tfr rev_id="55" t="канале"><v><l id="134116" t="канал"><g v="NOUN"/><g v="inan"/><g v="masc"/><g v="sing"/><g v="loct"/></l></v></tfr></token>
+          <token id="56" text="«"><tfr rev_id="56" t="«"><v><l id="0" t="«"><g v="UNKN"/></l></v></tfr></token>
+          <token id="57" text="Культура"><tfr rev_id="57" t="Культура"><v><l id="150695" t="культура"><g v="NOUN"/><g v="inan"/><g v="femn"/><g v="sing"/><g v="nomn"/></l></v></tfr></token>
+          <token id="58" text="»"><tfr rev_id="58" t="»"><v><l id="0" t="»"><g v="UNKN"/></l></v></tfr></token>
+          <token id="59" text="как"><tfr rev_id="59" t="как"><v><l id="133032" t="как"><g v="CONJ"/></l></v><v><l id="133033" t="как"><g v="PRCL"/></l></v><v><l id="133034" t="как"><g v="ADVB"/><g v="Ques"/></l></v></tfr></token>
+          <token id="60" text="стандартное"><tfr rev_id="60" t="стандартное"><v><l id="346279" t="стандартный"><g v="ADJF"/><g v="Qual"/><g v="neut"/><g v="sing"/><g v="nomn"/></l></v><v><l id="346279" t="стандартный"><g v="ADJF"/><g v="Qual"/><g v="neut"/><g v="sing"/><g v="accs"/></l></v></tfr></token>
+          <token id="61" text="ток-шоу"><tfr rev_id="61" t="ток-шоу"><v><l id="0" t="ток-шоу"><g v="UNKN"/></l></v></tfr></token>
+          <token id="62" text=","><tfr rev_id="62" t=","><v><l id="0" t=","><g v="PNCT"/></l></v></tfr></token>
+          <token id="63" text="которое"><tfr rev_id="63" t="которое"><v><l id="146879" t="который"><g v="ADJF"/><g v="Apro"/><g v="neut"/><g v="sing"/><g v="nomn"/></l></v><v><l id="146879" t="который"><g v="ADJF"/><g v="Apro"/><g v="neut"/><g v="sing"/><g v="accs"/></l></v></tfr></token>
+          <token id="64" text="отличалось"><tfr rev_id="64" t="отличалось"><v><l id="224297" t="отличаюсь"><g v="VERB"/><g v="impf"/><g v="intr"/><g v="neut"/><g v="sing"/><g v="past"/><g v="indc"/></l></v></tfr></token>
+          <token id="65" text="от"><tfr rev_id="65" t="от"><v><l id="220785" t="от"><g v="PREP"/></l></v></tfr></token>
+          <token id="66" text="других"><tfr rev_id="66" t="других"><v><l id="96262" t="другой"><g v="ADJF"/><g v="Apro"/><g v="plur"/><g v="gent"/></l></v><v><l id="96262" t="другой"><g v="ADJF"/><g v="Apro"/><g v="anim"/><g v="plur"/><g v="accs"/></l></v><v><l id="96262" t="другой"><g v="ADJF"/><g v="Apro"/><g v="plur"/><g v="loct"/></l></v></tfr></token>
+          <token id="67" text="«"><tfr rev_id="67" t="«"><v><l id="0" t="«"><g v="UNKN"/></l></v></tfr></token>
+          <token id="68" text="кухонными"><tfr rev_id="68" t="кухонными"><v><l id="151740" t="кухонный"><g v="ADJF"/><g v="Qual"/><g v="plur"/><g v="ablt"/></l></v></tfr></token>
+          <token id="69" text="»"><tfr rev_id="69" t="»"><v><l id="0" t="»"><g v="UNKN"/></l></v></tfr></token>
+          <token id="70" text="обсуждениями"><tfr rev_id="70" t="обсуждениями"><v><l id="208974" t="обсуждение"><g v="NOUN"/><g v="inan"/><g v="neut"/><g v="plur"/><g v="ablt"/></l></v></tfr></token>
+          <token id="71" text="гостя"><tfr rev_id="71" t="гостя"><v><l id="77168" t="гостя"><g v="GRND"/><g v="impf"/><g v="intr"/><g v="pres"/></l></v><v><l id="77182" t="гость"><g v="NOUN"/><g v="anim"/><g v="masc"/><g v="sing"/><g v="gent"/></l></v><v><l id="77182" t="гость"><g v="NOUN"/><g v="anim"/><g v="masc"/><g v="sing"/><g v="accs"/></l></v></tfr></token>
+          <token id="72" text=","><tfr rev_id="72" t=","><v><l id="0" t=","><g v="PNCT"/></l></v></tfr></token>
+          <token id="73" text="что"><tfr rev_id="73" t="что"><v><l id="390535" t="что"><g v="CONJ"/></l></v><v><l id="390536" t="что"><g v="NPRO"/><g v="neut"/><g v="sing"/><g v="nomn"/></l></v><v><l id="390536" t="что"><g v="NPRO"/><g v="neut"/><g v="sing"/><g v="accs"/></l></v><v><l id="390537" t="что"><g v="ADVB"/><g v="Ques"/></l></v></tfr></token>
+          <token id="74" text="называется"><tfr rev_id="74" t="называется"><v><l id="177599" t="называюсь"><g v="VERB"/><g v="impf"/><g v="intr"/><g v="sing"/><g v="3per"/><g v="pres"/><g v="indc"/></l></v></tfr></token>
+          <token id="75" text="–"><tfr rev_id="75" t="–"><v><l id="0" t="–"><g v="UNKN"/></l></v></tfr></token>
+          <token id="76" text="«"><tfr rev_id="76" t="«"><v><l id="0" t="«"><g v="UNKN"/></l></v></tfr></token>
+          <token id="77" text="за"><tfr rev_id="77" t="за"><v><l id="102183" t="за"><g v="PREP"/></l></v></tfr></token>
+          <token id="78" text="глаза"><tfr rev_id="78" t="глаза"><v><l id="73871" t="глаз"><g v="NOUN"/><g v="inan"/><g v="masc"/><g v="sing"/><g v="gent"/></l></v><v><l id="73871" t="глаз"><g v="NOUN"/><g v="inan"/><g v="masc"/><g v="plur"/><g v="nomn"/></l></v><v><l id="73871" t="глаз"><g v="NOUN"/><g v="inan"/><g v="masc"/><g v="plur"/><g v="accs"/></l></v></tfr></token>
+          <token id="79" text="»"><tfr rev_id="79" t="»"><v><l id="0" t="»"><g v="UNKN"/></l></v></tfr></token>
+          <token id="80" text=","><tfr rev_id="80" t=","><v><l id="0" t=","><g v="PNCT"/></l></v></tfr></token>
+          <token id="81" text="и"><tfr rev_id="81" t="и"><v><l id="121285" t="и"><g v="CONJ"/></l></v><v><l id="121286" t="и"><g v="INTJ"/></l></v></tfr></token>
+          <token id="82" text="неожиданными"><tfr rev_id="82" t="неожиданными"><v><l id="192932" t="неожиданный"><g v="ADJF"/><g v="Qual"/><g v="plur"/><g v="ablt"/></l></v></tfr></token>
+          <token id="83" text="персонами"><tfr rev_id="83" t="персонами"><v><l id="246986" t="персона"><g v="NOUN"/><g v="anim"/><g v="femn"/><g v="plur"/><g v="ablt"/></l></v></tfr></token>
+          <token id="84" text="в"><tfr rev_id="84" t="в"><v><l id="39313" t="в"><g v="PREP"/></l></v></tfr></token>
+          <token id="85" text="качестве"><tfr rev_id="85" t="качестве"><v><l id="136755" t="качество"><g v="NOUN"/><g v="inan"/><g v="neut"/><g v="sing"/><g v="loct"/></l></v></tfr></token>
+          <token id="86" text="ведущих"><tfr rev_id="86" t="ведущих"><v><l id="42363" t="ведущий"><g v="Subx"/><g v="ADJF"/><g v="plur"/><g v="gent"/></l></v><v><l id="42363" t="ведущий"><g v="Subx"/><g v="ADJF"/><g v="anim"/><g v="plur"/><g v="accs"/></l></v><v><l id="42363" t="ведущий"><g v="Subx"/><g v="ADJF"/><g v="plur"/><g v="loct"/></l></v><v><l id="44260" t="ведущий"><g v="Subx"/><g v="PRTF"/><g v="impf"/><g v="tran"/><g v="pres"/><g v="actv"/><g v="plur"/><g v="gent"/></l></v><v><l id="44260" t="ведущий"><g v="Subx"/><g v="PRTF"/><g v="impf"/><g v="tran"/><g v="pres"/><g v="actv"/><g v="anim"/><g v="plur"/><g v="accs"/></l></v><v><l id="44260" t="ведущий"><g v="Subx"/><g v="PRTF"/><g v="impf"/><g v="tran"/><g v="pres"/><g v="actv"/><g v="plur"/><g v="loct"/></l></v></tfr></token>
+          <token id="87" text="."><tfr rev_id="87" t="."><v><l id="0" t="."><g v="PNCT"/></l></v></tfr></token>
+        </tokens>
+      </sentence>
+    </paragraph>
+    <paragraph id="3">
+      <sentence id="6">
+        <source>Писательница Татьяна Толстая и сценаристка Дуня Смирнова вроде бы не вполне соответствовали принятым на российском телевидении стандартам телеведущих.</source>
+        <tokens>
+          <token id="88" text="Писательница"><tfr rev_id="88" t="Писательница"><v><l id="248727" t="писательница"><g v="NOUN"/><g v="anim"/><g v="femn"/><g v="sing"/><g v="nomn"/></l></v></tfr></token>
+          <token id="89" text="Татьяна"><tfr rev_id="89" t="Татьяна"><v><l id="355610" t="татьяна"><g v="NOUN"/><g v="anim"/><g v="femn"/><g v="Name"/><g v="sing"/><g v="nomn"/></l></v></tfr></token>
+          <token id="90" text="Толстая"><tfr rev_id="90" t="Толстая"><v><l id="359623" t="толстая"><g v="NOUN"/><g v="anim"/><g v="femn"/><g v="Sgtm"/><g v="Surn"/><g v="sing"/><g v="nomn"/></l></v><v><l id="359705" t="толстый"><g v="ADJF"/><g v="Qual"/><g v="femn"/><g v="sing"/><g v="nomn"/></l></v></tfr></token>
+          <token id="91" text="и"><tfr rev_id="91" t="и"><v><l id="121285" t="и"><g v="CONJ"/></l></v><v><l id="121286" t="и"><g v="INTJ"/></l></v></tfr></token>
+          <token id="92" text="сценаристка"><tfr rev_id="92" t="сценаристка"><v><l id="353017" t="сценаристка"><g v="NOUN"/><g v="anim"/><g v="femn"/><g v="sing"/><g v="nomn"/></l></v></tfr></token>
+          <token id="93" text="Дуня"><tfr rev_id="93" t="Дуня"><v><l id="97030" t="дуня"><g v="NOUN"/><g v="anim"/><g v="femn"/><g v="Name"/><g v="sing"/><g v="nomn"/></l></v></tfr></token>
+          <token id="94" text="Смирнова"><tfr rev_id="94" t="Смирнова"><v><l id="337873" t="смирнов"><g v="NOUN"/><g v="anim"/><g v="masc"/><g v="Sgtm"/><g v="Surn"/><g v="sing"/><g v="gent"/></l></v><v><l id="337873" t="смирнов"><g v="NOUN"/><g v="anim"/><g v="masc"/><g v="Sgtm"/><g v="Surn"/><g v="sing"/><g v="accs"/></l></v><v><l id="337874" t="смирнова"><g v="NOUN"/><g v="anim"/><g v="femn"/><g v="Sgtm"/><g v="Surn"/><g v="sing"/><g v="nomn"/></l></v></tfr></token>
+          <token id="95" text="вроде"><tfr rev_id="95" t="вроде"><v><l id="55560" t="вроде"><g v="PREP"/></l></v><v><l id="55561" t="вроде"><g v="PRCL"/></l></v></tfr></token>
+          <token id="96" text="бы"><tfr rev_id="96" t="бы"><v><l id="38868" t="бы"><g v="PRCL"/></l></v></tfr></token>
+          <token id="97" text="не"><tfr rev_id="97" t="не"><v><l id="186074" t="не"><g v="PRCL"/></l></v></tfr></token>
+          <token id="98" text="вполне"><tfr rev_id="98" t="вполне"><v><l id="55043" t="вполне"><g v="ADVB"/></l></v></tfr></token>
+          <token id="99" text="соответствовали"><tfr rev_id="99" t="соответствовали"><v><l id="341130" t="соответствую"><g v="VERB"/><g v="impf"/><g v="intr"/><g v="plur"/><g v="past"/><g v="indc"/></l></v></tfr></token>
+          <token id="100" text="принятым"><tfr rev_id="100" t="принятым"><v><l id="282758" t="принятый"><g v="ADJF"/><g v="masc"/><g v="sing"/><g v="ablt"/></l></v><v><l id="282758" t="принятый"><g v="ADJF"/><g v="neut"/><g v="sing"/><g v="ablt"/></l></v><v><l id="282758" t="принятый"><g v="ADJF"/><g v="plur"/><g v="datv"/></l></v><v><l id="282763" t="принятый"><g v="PRTF"/><g v="perf"/><g v="tran"/><g v="past"/><g v="pssv"/><g v="masc"/><g v="sing"/><g v="ablt"/></l></v><v><l id="282763" t="принятый"><g v="PRTF"/><g v="perf"/><g v="tran"/><g v="past"/><g v="pssv"/><g v="neut"/><g v="sing"/><g v="ablt"/></l></v><v><l id="282763" t="принятый"><g v="PRTF"/><g v="perf"/><g v="tran"/><g v="past"/><g v="pssv"/><g v="plur"/><g v="datv"/></l></v></tfr></token>
+          <token id="101" text="на"><tfr rev_id="101" t="на"><v><l id="173350" t="на"><g v="PREP"/></l></v></tfr></token>
+          <token id="102" text="российском"><tfr rev_id="102" t="российском"><v><l id="320178" t="российский"><g v="ADJF"/><g v="masc"/><g v="sing"/><g v="loct"/></l></v><v><l id="320178" t="российский"><g v="ADJF"/><g v="neut"/><g v="sing"/><g v="loct"/></l></v></tfr></token>
+          <token id="103" text="телевидении"><tfr rev_id="103" t="телевидении"><v><l id="356228" t="телевидение"><g v="NOUN"/><g v="inan"/><g v="neut"/><g v="Sgtm"/><g v="sing"/><g v="loct"/></l></v></tfr></token>
+          <token id="104" text="стандартам"><tfr rev_id="104" t="стандартам"><v><l id="346231" t="стандарт"><g v="NOUN"/><g v="inan"/><g v="masc"/><g v="plur"/><g v="datv"/></l></v></tfr></token>
+          <token id="105" text="телеведущих"><tfr rev_id="105" t="телеведущих"><v><l id="356224" t="телеведущая"><g v="NOUN"/><g v="anim"/><g v="femn"/><g v="plur"/><g v="gent"/></l></v><v><l id="356224" t="телеведущая"><g v="NOUN"/><g v="anim"/><g v="femn"/><g v="plur"/><g v="accs"/></l></v><v><l id="356224" t="телеведущая"><g v="NOUN"/><g v="anim"/><g v="femn"/><g v="plur"/><g v="loct"/></l></v><v><l id="356225" t="телеведущий"><g v="NOUN"/><g v="anim"/><g v="masc"/><g v="plur"/><g v="gent"/></l></v><v><l id="356225" t="телеведущий"><g v="NOUN"/><g v="anim"/><g v="masc"/><g v="plur"/><g v="accs"/></l></v><v><l id="356225" t="телеведущий"><g v="NOUN"/><g v="anim"/><g v="masc"/><g v="plur"/><g v="loct"/></l></v></tfr></token>
+          <token id="106" text="."><tfr rev_id="106" t="."><v><l id="0" t="."><g v="PNCT"/></l></v></tfr></token>
+        </tokens>
+      </sentence>
+    </paragraph>
+  </paragraphs>
+</text>
 </annotation>
