@@ -1,19 +1,21 @@
 from xml.etree import ElementTree as ET
 
 TEST = "try.xml"
+TEST_OUT = "try_train.xml"
+
 TRAIN_CORP_SOURCE = "first500.xml"
 TRAIN_CORP = "train.xml"
 TEST_CORP_SOURCE = "other700.xml"
 TEST_CORP = "test.xml"
+PARAGRAPH = "_paragraph_"
 
 wrap         = lambda tag, text: "<{0}>{1}</{0}>".format(tag,text)
-parag_wrap   = lambda parag: wrap("parag",parag)
+parag_wrap   = lambda parag: "\n  " + wrap("parag",parag)
 sent_wrap    = lambda sent:  wrap("sentence",sent)
 text_wrap    = lambda text:  wrap("text",text)
 token_wrap   = lambda token: wrap("t",token)
 pos_dot_wrap = lambda token: "<t class=\"pos\">{}</t>".format(token)
 neg_dot_wrap = lambda token: "<t class=\"neg\">{}</t>".format(token)
-
 
 def form_train_corpora():
     tree = read_xml(TRAIN_CORP_SOURCE)
@@ -33,6 +35,18 @@ def form_corpora(dest, texts):
             decorated = decorate(parsed_struct)
             outfile.write(decorated)
 
+def decorate(text):
+    txt = []
+    for paragraph in text:
+        pw  = ['\n    ' + token_wrap(PARAGRAPH)]
+        par = ['    ' + '\n    '.join(sentence) for sentence in paragraph]   
+        par = pw + par + ['    ' + token_wrap(PARAGRAPH) + '\n  ']
+        
+        par = parag_wrap('\n'.join(par))
+        txt.append(par)
+    result = text_wrap('\n'.join(txt))    
+    return result            
+
 def read_xml(xml):
     with open(xml, encoding='utf-8') as infile:
         tree = ET.parse(infile)
@@ -40,15 +54,6 @@ def read_xml(xml):
 
 def extract_texts(root):
     return root.findall('.//text')
-
-def extract_sentences(text):
-    result = []
-    paragraphs = text.findall('.//paragraph')   
-    for paragraph in paragraphs:         
-        sentences =  paragraph.findall('./sentence')
-        for sentence in sentences:
-            result.append(sentence.findall('./source')[0].text) 
-    return result
 
 def extract_tokenized_sentences(text):
     result = []
@@ -66,11 +71,10 @@ def extract_tokenized_sentences(text):
 
 def prepare_sentence(tokens):
     aug = ["<sentence>"] + tokens + ["</sentence>"]
-    result = ["<sentence>"]
+    result = []
     for i in range(1,len(tokens)+1):
         wrapped = decide(aug[i-1],aug[i],aug[i+1])
-        result.append(wrapped)
-    result.append("</sentence>")   
+        result.append(wrapped)  
     return result
 
 def decide(prev,this,nxt):
@@ -87,20 +91,13 @@ def decide(prev,this,nxt):
     else:
         return token_wrap(this)
 
-def decorate(text):
-    txt = []
-    for paragraph in text:
-        par = ['\n  '.join(sentence) for sentence in paragraph]    
-        par = parag_wrap('\n'.join(par))
-        txt.append(par)
-    result = text_wrap('\n'.join(txt))    
-    return result
-
 if __name__ == "__main__":
-    form_train_corpora()
-    form_test_corpora()
+    tree = read_xml(TEST)
+    texts = extract_texts(tree)
+    form_corpora(TEST_OUT, texts)
 
     s = ['1','.','пункт','диплома','т','.',')','.']
-
     print(prepare_sentence(s))
+
+    
             

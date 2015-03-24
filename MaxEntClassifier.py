@@ -1,42 +1,32 @@
-from nltk.corpus import names
 from nltk import MaxentClassifier
 from nltk import classify
 import random
 
-names = ( [(name, 'male')for name in names.words('male.txt')]
-         + [(name, 'female') for name in names.words('female.txt')]
-          )
+import CorporaExtractor
+import FeatureExtractor
 
-random.shuffle(names)
+if __name__ == "__main__":
+    """    
+        CorporaExtractor.form_train_corpora() # train.xml
+        CorporaExtractor.form_test_corpora()  # test.xml
 
-# names is [ (u'Marthe', 'female') , (u'Alex','male'), ...]
+    """
 
-def gender_features(word):
-    return {'last_letter': word[-1], 'first_letter': word[0]}
-
-
-"""
-tokens = ['comp','.','ling','.']
-toklen = 4
-index is in [0,1,2,3]
-
-"""
+    trdata = FeatureExtractor.collect_classified_data("train.xml")
+    random.shuffle(data)
 
 
-tokens = ['comp','.','lingu','.']
+    half = round(len(data)/2)
+    train_set, test_set = data[:half], data[half:]
+
+    
+    me_classifier = MaxentClassifier.train(train_set)
+
+    test_ex = test_set[0][0]
+    print(test_ex)
+    print(me_classifier.classify(test_ex))
+
+    classify.accuracy(me_classifier, test_set)
 
 
-featuresets = [(gender_features(name), gender) for (name, gender) in names]
-
-
-train_set, test_set = featuresets[500:], featuresets[:500]
-
-
-#me_classifier = MaxentClassifier.train(train_set)
-
-
-
-
-#print(nb_classifier.classify(gender_features('Gary')))
-
-#print(me_classifier.classify(gender_features('Grace')))
+   

@@ -7,14 +7,13 @@ PARAGRAPH = "_paragraph_"
 isdigit = lambda t: t.isdigit()
 title   = lambda t: t.istitle()
 
-def read_xml(xml):
+# работа происходит параграфами, предложений "не существует".
+def collect_classified_data(xml):
+    labeled_data = []
+    
     with open(xml, encoding='utf-8') as infile:
         tree = ET.parse(infile)
-    return tree
-
-# работа происходит параграфами, предложений "не существует".
-def collect_classified_data(tree):
-    labeled_data = []
+        
     paragraphs = tree.findall('.//parag')
     for paragraph_node in paragraphs:
         token_nodes = paragraph_node.findall('.//t')
@@ -64,17 +63,13 @@ def extract_features(prev,nxt):
     
     return features
 
-
-tree = read_xml(TEST_CORP)        
-data = collect_classified_data(tree)
-#print(data)
-
-train_set, test_set = data, data
-
-me_classifier = MaxentClassifier.train(train_set)
-
-test_ex = test_set[0][0]
-print(test_ex)
-
-
-print(me_classifier.classify(test_ex))
+if __name__ == "__main__":
+    tree = read_xml("try_train.xml")        
+    data = collect_classified_data(tree)
+    
+    train_set, test_set = data, data
+    me_classifier = MaxentClassifier.train(train_set)
+    
+    test_ex = test_set[0][0]
+    print(test_ex)
+    print(me_classifier.classify(test_ex))
