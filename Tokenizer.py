@@ -23,8 +23,7 @@ def split(text):
 def tokenize(text):
     result = []
     stuff = wrap(split(text))
-    for i in range(1,len(stuff)-1):
-        
+    for i in range(1,len(stuff)-1): 
         if stuff[i] == '.':
             features = xtract(stuff[i-1],stuff[i+1])
             pred_label = maxent.classify(features)           
@@ -36,7 +35,7 @@ def tokenize(text):
             result.append(stuff[i])
     return result
 
-sentence =  "Кто-нибудь позвоните-ж. т.е.  \"Ёжи-сан\"   зачем-либо. Щекотно-с, кому-то!\n Вам-то легко рассуждать"
+sentence =  "Кто-нибудь позвоните-ж. т.е. ха-ха-ха  \"Ёжи-сан\"   зачем-либо. Щекотно-с, кому-то!\n Вам-то легко рассуждать"
 
 print(sentence)
 print(split(sentence))
