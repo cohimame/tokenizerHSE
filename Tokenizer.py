@@ -37,16 +37,25 @@ def tokenize(text):
 
 sentence =  "Кто-нибудь позвоните-ж. 09/12/94 т.е. ха-ха-ха  \"Ёжи-сан\"   зачем-либо. Щекотно-с, кому-то!\n Вам-то легко рассуждать"
 
-TEST = "test.txt"
+TEST = "lenta.txt"
 def test():
-    with open(gold, encoding='utf-8') as infile:
-        pass
-def raw():    
-    pass
-print(sentence)
-print(split(sentence))
+    paragraphs = []
+    with open(TEST, encoding='utf-8') as infile:
+        file = infile.read()
+        chunks = file.split('\n')
+        paragraphs = [p for p in chunks if p != ""]
 
-print(tokenize(sentence))
+    tokenized = [tokenize(p) for p in paragraphs]
+    return tokenized
+
+    
+
+#print(sentence)
+#print(split(sentence))
+
+#print(tokenize(sentence))
 #----------------------------
-print(tokenize("Сказал-иди-ка сюда"))
+#print(tokenize("Сказал-иди-ка сюда"))
+
+print(test())
 
