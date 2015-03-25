@@ -35,10 +35,18 @@ def tokenize(text):
             result.append(stuff[i])
     return result
 
-sentence =  "Кто-нибудь позвоните-ж. т.е. ха-ха-ха  \"Ёжи-сан\"   зачем-либо. Щекотно-с, кому-то!\n Вам-то легко рассуждать"
+sentence =  "Кто-нибудь позвоните-ж. 09/12/94 т.е. ха-ха-ха  \"Ёжи-сан\"   зачем-либо. Щекотно-с, кому-то!\n Вам-то легко рассуждать"
 
+TEST = "test.txt"
+def test():
+    with open(gold, encoding='utf-8') as infile:
+        pass
+def raw():    
+    pass
 print(sentence)
 print(split(sentence))
 
 print(tokenize(sentence))
+#----------------------------
+print(tokenize("Сказал-иди-ка сюда"))
 
